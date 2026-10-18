@@ -1,0 +1,22 @@
+# ESP-IDF build artifacts (regenerable, heavy)
+/build/
+/managed_components/
+
+# Personal IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup config (sdkconfig itself is kept for reproducibility)
+sdkconfig.old
+
+# Logs
+*.log
